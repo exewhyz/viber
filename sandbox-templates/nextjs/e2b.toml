@@ -1,0 +1,17 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (m303my47jptiae9a0b53) or template name (viber-test) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox("viber-test") # Sync sandbox
+# sandbox = await AsyncSandbox.create("viber-test") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('viber-test')
+
+team_id = "cf520fe9-00be-4057-b25e-1de6373fcbef"
+start_cmd = "/compile_page.sh"
+dockerfile = "e2b.Dockerfile"
+template_name = "viber-test"
+template_id = "m303my47jptiae9a0b53"
