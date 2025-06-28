@@ -4,6 +4,11 @@ import { useTRPC } from "@/trpc/client";
 import { useMutation } from "@tanstack/react-query";
 import { toast } from "sonner";
 
+/**
+ * Renders a button that triggers a background task mutation and displays a success notification upon completion.
+ *
+ * The button is disabled while the mutation is pending.
+ */
 export default function Home() {
   const trpc = useTRPC();
   const queryClient = useMutation(
