@@ -6,6 +6,11 @@ import { useMutation } from "@tanstack/react-query";
 import { useState } from "react";
 import { toast } from "sonner";
 
+/**
+ * Renders the home page UI for invoking a background task with user-provided input.
+ *
+ * Displays a centered input field and a button. When the button is clicked, the current input value is submitted via a mutation to start a background task. Shows a success notification upon successful invocation.
+ */
 export default function Home() {
   const trpc = useTRPC();
   const queryClient = useMutation(
