@@ -11,8 +11,8 @@ import React from "react";
 interface HintProps {
   children: React.ReactNode;
   text: string;
-  side: "top" | "bottom" | "left" | "right";
-  align: "start" | "center" | "end";
+  side?: "top" | "bottom" | "left" | "right";
+  align?: "start" | "center" | "end";
 }
 
 export const Hint: React.FC<HintProps> = ({
