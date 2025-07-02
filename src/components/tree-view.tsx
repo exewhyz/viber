@@ -14,7 +14,6 @@ import { ChevronRightIcon, FileIcon, FolderIcon } from "lucide-react";
 import { Collapsible, CollapsibleTrigger } from "./ui/collapsible";
 import { CollapsibleContent } from "@radix-ui/react-collapsible";
 
-//   onSelect={handleFileSelect}
 interface TreeViewProps {
   data: TreeItem[];
   value?: string | null;
